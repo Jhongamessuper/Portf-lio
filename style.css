@@ -515,10 +515,10 @@ h2 {
 }
 
 .skill-box {
-    height: 106px;
+    max-height: 136px;
     width: 106px;
     background-color: #C4C4C4;
-    border-radius: 20px;
+    border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;

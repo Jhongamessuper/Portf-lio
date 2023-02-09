@@ -95,7 +95,7 @@ img {
 }
 
 .apresentacao {
-    max-width: 741px;
+    max-width: 1241px;
     color:white;
 }
 
@@ -105,7 +105,7 @@ img {
 }
 
 .meu-nome {
-    font-size: 30px;;
+    font-size: 40px;;
 }
 
 .linkedin {
@@ -136,11 +136,6 @@ img {
     color: white;
 }
 
-.desenho {
-    max-width: 300px;
-    grid-area: desenho;
-}
-
 @keyframes desenhoAnimacao {
     from {
         top:-15px;
@@ -148,13 +143,6 @@ img {
     to {
         top: 25px;
     }
-}
-
-.desenho2 {
-    position: relative;
-    animation: desenhoAnimacao 2.1s infinite alternate-reverse linear;
-    width: 100%;
-    height: 50vh;
 }
 
 .close-menu {
@@ -195,10 +183,6 @@ img {
         padding-bottom: 50px;
     }
 
-    .desenho {
-        padding: 100px 0;
-    }
-
     .apresentacao {
         display: flex;
         flex-wrap: wrap;
@@ -222,10 +206,6 @@ img {
 }
 
 @media (max-width:950px) {
-    .desenho {
-        padding: 25px 0;
-    }
-
     .altura-ajuste{
         display: flex;
         justify-content: center;
@@ -241,11 +221,6 @@ img {
     }
 
     #inicio {
-        display: flex;
-        justify-content: center;
-    }
-
-    .desenho {
         display: flex;
         justify-content: center;
     }
@@ -388,6 +363,7 @@ h2 {
 .minha-foto{
     width: 100%;
     height: 40vh;
+    border-radius: 30px;
 }
 
 .avatar:hover {
@@ -511,12 +487,12 @@ h2 {
     justify-content: center;
     flex-wrap: wrap;
     gap: 37px;
-    max-width: 55%;
+    max-width: 100%;
 }
 
 .skill-box {
-    max-height: 136px;
-    width: 106px;
+    max-height: 140px;
+    width: 150px;
     background-color: #C4C4C4;
     border-radius: 10px;
     display: flex;

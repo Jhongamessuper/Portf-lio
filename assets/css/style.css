@@ -341,9 +341,10 @@ h1, h2, h3, a, p{
 
 .contato-container2{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    margin: 50px 0;
+    margin: 50px 30px;
     gap: 30px;
 }
 
@@ -442,6 +443,10 @@ h1, h2, h3, a, p{
     .contato-container p{
         font-size: 16px;
         text-align: center;
+    }
+
+    .contato-container2 img{
+        width: 40px;
     }
 }
 

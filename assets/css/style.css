@@ -70,7 +70,7 @@ h1, h2, h3, a, p{
 
 #menu-mobile{
     display: none;
-    font-size: 40px;
+    font-size: 30px;
     color: gold;
 }
 
@@ -362,6 +362,7 @@ h1, h2, h3, a, p{
 @media (max-width: 785px) {
     .menu{
         justify-content: space-between;
+        padding: 15px 0;
     }
 
     .menu-logo{

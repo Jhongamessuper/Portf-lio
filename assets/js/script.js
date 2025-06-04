@@ -19,3 +19,19 @@ document.addEventListener('click', (event) => {
         lista.classList.remove('show');
     }
 });
+
+//AUDIO & DISCO
+
+const disco= document.getElementById('inicio-disco')
+const audio= document.getElementById('inicio-audio')
+const agulha = document.getElementById('inicio-agulha');
+
+ audio.addEventListener('play', () => {
+    disco.classList.add('rotacao');
+    agulha.classList.add('inicio-agulha-tocando');
+});
+
+ audio.addEventListener('pause', () => {
+    disco.classList.remove('rotacao');
+    agulha.classList.remove('inicio-agulha-tocando');
+});

@@ -110,15 +110,50 @@ h1, h2, h3, a, p{
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
+    border: solid 5px black;
+    transition: ease-in-out .5s;
+    background-image: url(../img/vecteezy_beautiful-wood-background-with-text-space_.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px 0;
 }
 
-.inicio-container2 img{
+.inicio-container2:hover{
+    scale: 1.02;
+    box-shadow: 10px 10px #10101f;
+}
+
+#inicio-disco{
     width: 70%;
     transition: ease-in-out .5s;
+}
+
+#inicio-agulha{
+    position: absolute;
+    width: 30%;
+    top: 20px;
+    right: 20px;
+    transform-origin: right center;
+    transition: transform 0.5s ease;
+    transform: rotate(-20deg); /* posição inicial, afastada do disco */
+    transition: ease-in-out .5s;
+}
+
+#inicio-agulha:hover{
+    scale: 1.05;
+}
+
+.inicio-agulha-tocando{
+    transform: rotate(0deg) !important; /* posição de "tocando" */
+}
+
+.rotacao{
     animation: rotacao 15s linear infinite;
 }
 
-.inicio-container2 img:hover{
+#inicio-disco:hover{
     scale: 1.05;
     cursor: pointer;
 }
@@ -351,7 +386,7 @@ h1, h2, h3, a, p{
         display: flex;
     }
 
-    .inicio-container2 img{
+    #inicio-disco{
         width: 70%;
     }
 
@@ -375,7 +410,11 @@ h1, h2, h3, a, p{
         text-align: center;
     }
 
-    #anchor img{
+    .inicio-container2{
+        width: 85%;
+    }
+
+    #inicio-disco{
         width: 65%;
     }
 

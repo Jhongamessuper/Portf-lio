@@ -360,6 +360,12 @@ h1, h2, h3, a, p{
 
 /*----------------------------------RESPONSIVIDADE----------------------------------*/
 
+@media (max-width: 1024px){
+    .projetos-card{
+        width: 35%;
+    }
+}
+
 @media (max-width: 785px) {
     .menu{
         justify-content: space-between;

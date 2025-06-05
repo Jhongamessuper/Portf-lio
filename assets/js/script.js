@@ -26,6 +26,8 @@ const disco= document.getElementById('inicio-disco')
 const audio= document.getElementById('inicio-audio')
 const agulha = document.getElementById('inicio-agulha');
 
+audio.volume = 0.3; // Define o volume
+
  audio.addEventListener('play', () => {
     disco.classList.add('rotacao');
     agulha.classList.add('inicio-agulha-tocando');

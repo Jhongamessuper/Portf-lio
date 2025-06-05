@@ -185,8 +185,20 @@ h1, h2, h3, a, p{
     gap: 50px;
 }
 
-.sobre-container p{
+.sobre-texto{
+    padding: 30px;
+    background-color: #facb40;
+    transition: ease-in-out .5s;
+}
+
+.sobre-texto p{
     font-size: 25px;
+    color: #10101f;
+}
+
+.sobre-texto:hover{
+    scale: 1.02;
+    box-shadow: 10px 10px #10101f;
 }
 
 .sobre-container img{
@@ -431,7 +443,11 @@ h1, h2, h3, a, p{
         width: 65%;
     }
 
-    .sobre-container p{
+    .sobre-container{
+        margin: 120px 25px;
+    }
+
+    .sobre-texto p{
         font-size: 20px;
     }
 

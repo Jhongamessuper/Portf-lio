@@ -170,7 +170,8 @@ h1, h2, h3, a, p{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 0 0 150px 0;
+    padding: 50px 0;
+    background-color: #171738;
 }
 
 #anchor2 h2{
@@ -223,7 +224,8 @@ h1, h2, h3, a, p{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 0 0 150px 0;
+    padding: 50px 0;
+    background-color: #221c41;
 }
 
 #anchor3 h2{
@@ -235,12 +237,12 @@ h1, h2, h3, a, p{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    margin: 100px 0;
+    margin: 100px 15px;
     gap: 30px;
 }
 
 .habilidades-container img{
-    width: 18%;
+    width: 12%;
     transition: ease-in-out .5s;
     background-color: white;
     border: solid 5px black;
@@ -261,7 +263,8 @@ h1, h2, h3, a, p{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 0 0 150px 0;
+    padding: 50px 0;
+    background-color: #1d243d;
 }
 
 #anchor4 h2{
@@ -273,7 +276,7 @@ h1, h2, h3, a, p{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    margin: 100px 0;
+    margin: 100px 15px;
     gap: 30px;
 }
 
@@ -319,7 +322,7 @@ h1, h2, h3, a, p{
 .projetos-card a{
     color: #10101f;
     font-weight: bold;
-    transition: ease-in-out .5s
+    transition: ease-in-out .5s;
 }
 
 .projetos-card a:hover{
@@ -333,7 +336,8 @@ h1, h2, h3, a, p{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 0 20px 50px 20px;
+    padding: 50px 0;
+    background-color: #17203d;
 }
 
 #anchor5 h2{
@@ -342,6 +346,7 @@ h1, h2, h3, a, p{
 
 #anchor5 p{
     text-align: center;
+    margin: 0 20px;
 }
 
 .contato-container{
@@ -349,7 +354,7 @@ h1, h2, h3, a, p{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 50px 0 0 0;
+    margin: 50px 20px;
 }
 
 .contato-container p{
@@ -361,12 +366,12 @@ h1, h2, h3, a, p{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    margin: 50px 30px;
+    margin: 50px 20px 15px 20px;
     gap: 30px;
 }
 
 .contato-container2 img{
-    width: 100px;
+    width: 80px;
     transition: ease-in-out .5s;
 }
 
@@ -511,6 +516,6 @@ h1, h2, h3, a, p{
 
 @media (max-width: 330px){
     .projetos-card{
-        width: 85%;
+        width: 88%;
     }
 }
